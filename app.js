@@ -2,7 +2,6 @@
     //DOM initialization
     let btn = document.querySelector(".searchbtn");
     let srchbtn = document.querySelector("#srchbtn");
-    import apikey from './apikey';
 
     btn.addEventListener("click", ()=>{
         if(srchbtn.value){
